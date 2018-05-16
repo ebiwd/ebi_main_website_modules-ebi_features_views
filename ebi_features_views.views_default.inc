@@ -27,7 +27,7 @@ function ebi_features_views_views_default_views() {
   $handler->display->display_options['access']['type'] = 'none';
   $handler->display->display_options['cache']['type'] = 'none';
   $handler->display->display_options['query']['type'] = 'views_query';
-  $handler->display->display_options['query']['options']['json_file'] = 'https://wwwdev.ebi.ac.uk/api/v1/jobs';
+  $handler->display->display_options['query']['options']['json_file'] = 'https://www.ebi.ac.uk/api/v1/jobs';
   $handler->display->display_options['query']['options']['row_apath'] = 'list';
   $handler->display->display_options['query']['options']['enable_pagination_query_parameters'] = 0;
   $handler->display->display_options['query']['options']['show_errors'] = 1;
